@@ -75,10 +75,12 @@ const Hero = () => {
               <Button className="font-mono" size="lg">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton className="font-mono">
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
+              <a href="/cv/resume.pdf" download>
+                <AnimatedBorderButton className="font-mono">
+                  <Download className="w-5 h-5" />
+                  Download CV
+                </AnimatedBorderButton>
+              </a>
             </div>
 
             {/* Social Links */}
