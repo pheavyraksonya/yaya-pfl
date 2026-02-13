@@ -52,9 +52,11 @@ const NavBar = () => {
         {/* cta button */}
 
         <div className="hidden md:block ml-4">
-          <Button href="#contact" className="font-mono" size="sm">
-            Contact ME
-          </Button>
+          <a href="#contact">
+            <Button className="font-mono" size="sm">
+              Contact ME
+            </Button>
+          </a>
         </div>
 
         {/* mobile menu */}

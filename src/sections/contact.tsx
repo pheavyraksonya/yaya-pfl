@@ -120,7 +120,7 @@ const Contact = () => {
       <div className="container mx-auto px-6 relative z-10">
         {/* header */}
         <div className="mx-auto text-center max-w-3xl mb-16">
-          <span className="text-secondary-foreground text-sm font-medium font-mono tracking-wider uppercase">
+          <span className="text-secondary-foreground animate-fade-in text-sm font-medium font-mono tracking-wider uppercase">
             Get in touch
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delat-200 text-primary font-mono">

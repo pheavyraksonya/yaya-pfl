@@ -29,7 +29,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row gap-8 items-center justify-between">
           {/* logo  */}
           <div className="text-center md:text-left">
-            <a href="#" className="tracking-tight font-bold text-xl">
+            <a
+              href="#"
+              className="tracking-tight font-bold hover:text-primary text-xl"
+            >
               YAYa<span className="text-primary">.</span>
             </a>
             <p className="mt-2 text-sm text-muted-foreground font-mono">
