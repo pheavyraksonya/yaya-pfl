@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const NavLink = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact" },
+  { href: "#monial", label: "Testimonials" },
   { href: "#experience", label: "Experience" },
 ];
 
@@ -52,7 +52,7 @@ const NavBar = () => {
         {/* cta button */}
 
         <div className="hidden md:block ml-4">
-          <Button className="font-mono" size="sm">
+          <Button href="#contact" className="font-mono" size="sm">
             Contact ME
           </Button>
         </div>

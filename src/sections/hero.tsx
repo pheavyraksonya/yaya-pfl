@@ -8,7 +8,6 @@ import {
   Instagram,
 } from "lucide-react";
 import AnimatedBorderButton from "../components/animatborderbutton";
-import pf2 from "../assets/pf2.jpg";
 const skills = [
   "React",
   "Next.js",
@@ -29,6 +28,7 @@ const Hero = () => {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(30)].map((_, i) => (
           <div
+            key={i}
             className="absolute w-1.5 h-1.5 rounded-full opacity-60"
             style={{
               backgroundColor: "#20B2A6",
@@ -119,7 +119,7 @@ const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src={pf2}
+                  src="/pf2.jpg"
                   alt="Pedro Machado"
                   className="w-full aspect-4/5 object-cover rounded-2xl"
                 />
